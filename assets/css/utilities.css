@@ -1,0 +1,162 @@
+/* background-color: #010327*/
+/*************************** start of  smaller screen*******************/
+@media only screen and (max-width: 690px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+  /** SITE HEADER START ***/
+  .site-header {
+    width: 100%;
+    height: 60px;
+    background-color: #e8e8e8;
+    transition: 0.5s ease;
+    z-index: 1000;
+  }
+
+  .site-header.is-showing {
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+
+  .site-header .logo-img {
+    position: relative;
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .site-header ul {
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    width: 80%;
+    height: calc(100vh - 60px);
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .site-header ul.sidebaropen {
+    animation: sidebaropen 0.5s ease;
+  }
+  .site-header ul.sidebarclose {
+    animation: sidebarclose 0.5s ease;
+  }
+  @keyframes sidebaropen {
+    from {
+      right: -100%;
+    }
+
+    to {
+      right: 0%;
+    }
+  }
+
+  @keyframes sidebarclose {
+    from {
+      right: 0%;
+    }
+
+    to {
+      right: -100%;
+    }
+  }
+
+  .site-header ul li {
+    display: block;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .site-header ul li a {
+    padding: 10px 20px;
+    color: #1d76bc;
+    text-decoration: none;
+  }
+
+  .site-header ul li a.check-status-btn {
+    background-color: #1d76bc;
+    color: white;
+    border-radius: 6px;
+  }
+
+  .site-header .hamburger {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #1d76bc;
+    color: #1d76bc;
+  }
+  /*** SITE HEADER END ***/
+}
+
+/** ********************end of smaller screen********************** **/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/** *******************start of bigger screen************************/
+@media only screen and (min-width: 690px) {
+  .hide-on-desktop {
+    display: none !important;
+  }
+  /** SITE HEADER START ***/
+  .site-header {
+    width: 100%;
+    height: 70px;
+    background-color: #e8e8e8;
+    transition: 0.5s ease;
+  }
+
+  .site-header.is-showing {
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+
+  .site-header .logo-img {
+    position: relative;
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .site-header ul {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .site-header ul li {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 15px;
+  }
+
+  .site-header ul li a {
+    padding: 10px 20px;
+    color: #1d76bc;
+    text-decoration: none;
+  }
+
+  .site-header ul li a.check-status-btn {
+    background-color: #1d76bc;
+    color: white;
+    border-radius: 6px;
+  }
+
+  /*** SITE HEADER END ***/
+}
+
+/** **************end of bigger screen************************ **/
+
+.centered-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
