@@ -81,26 +81,291 @@
       </div>
     </section>
     <!--- hero end --->
-    <div class="triangle"></div>
+    <div class="triangle-container">
+      <div class="triangle">
+      </div>
+      <img src="assets/images/5.svg" class="triangle-pin" alt="">
+    </div>
+
+    <!--- Tips start ---->
+    <section class="tips-container">
+
+      <div class="tips tip1">
+        <div class="row1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+        </div>
+        <div class="row2">
+          <div class="centered-div">
+            <img src="assets/images/2.svg" alt="">
+          </div>
+        </div>
+      </div>
 
 
 
 
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
+      <div class="tips tip2">
+        <div class="row1">
 
+          <div class="centered-div">
+            <img src="assets/images/3.svg" alt="">
+          </div>
+
+        </div>
+        <div class="row2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+      </div>
+
+
+
+      <div class="tips tip3">
+        <div class="row1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+        </div>
+        <div class="row2">
+          <div class="centered-div">
+            <img src="assets/images/4.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!--- Tips end --->
+
+
+    <!--- partners start --->
+    <section class="partners">
+
+      <div class="title">Our <span>Part</span>ners</div>
+      <div class="subtitle">Here are some of our Top-notch partners who came together to support this platform</div>
+
+
+      <div class="partners-carousel owl-carousel owl-theme">
+
+        <div class="box"><img src="assets/images/icons/f1.jpg" alt=""></div>
+        <div class="box"><img src="assets/images/icons/f2.jpg" alt=""></div>
+        <div class="box"><img src="assets/images/icons/f3.jpg" alt=""></div>
+        <div class="box"><img src="assets/images/icons/f4.jpg" alt=""></div>
+        <div class="box"><img src="assets/images/icons/f5.jpg" alt=""></div>
+        <div class="box"><img src="assets/images/icons/f6.jpg" alt=""></div>
+        <div class="box"><img src="assets/images/icons/f7.jpg" alt=""></div>
+        <div class="box"><img src="assets/images/icons/f8.jpg" alt=""></div>
+        <div class="box"><img src="assets/images/icons/f1.jpg" alt=""></div>
+
+      </div>
+    </section>
+    <!--- partners end --->
+
+
+    <!--- news start --->
+    <section class="news">
+      <div class="title">News</div>
+
+      <div class="row1">
+        <div class="box">
+          <img src="assets/images/t3.jpg" alt="">
+          <div class="overlay"></div>
+          <div class="details">
+            <div class="news-title">Trend Tag</div>
+            <div class="news-description">An interactive new platform</div>
+            <div class="news-date">12-06-2020</div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row2">
+        <div class="row1">
+          <div class="box">
+            <img src="assets/images/t3.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="details">
+              <div class="news-title">Trend Tag</div>
+              <div class="news-description">An interactive new platform</div>
+              <div class="news-date">12-06-2020</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row2 news-carousel owl-carousel owl-theme">
+
+          <div class="box">
+            <img src="assets/images/t3.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="details">
+              <div class="news-title">Trend Tag</div>
+              <div class="news-description">An interactive new platform</div>
+              <div class="news-date">12-06-2020</div>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <img src="assets/images/t3.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="details">
+              <div class="news-title">Trend Tag</div>
+              <div class="news-description">An interactive new platform</div>
+              <div class="news-date">12-06-2020</div>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <img src="assets/images/t3.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="details">
+              <div class="news-title">Trend Tag</div>
+              <div class="news-description">An interactive new platform</div>
+              <div class="news-date">12-06-2020</div>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <img src="assets/images/t3.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="details">
+              <div class="news-title">Trend Tag</div>
+              <div class="news-description">An interactive new platform</div>
+              <div class="news-date">12-06-2020</div>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <img src="assets/images/t3.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="details">
+              <div class="news-title">Trend Tag</div>
+              <div class="news-description">An interactive new platform</div>
+              <div class="news-date">12-06-2020</div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+    </section>
+    <!--- news end --->
+
+
+
+
+    <!-- testimonials start ---->
+    <section class="testimonials">
+
+      <div class="title">Testimonials</div>
+      <div class="testimonials-carousel owl-carousel owl-theme">
+
+        <div class="box">
+          <div class="row1"><i class="fa fa-quote-left"></i></div>
+          <div class="row2">An interactive new platform where people can read news</div>
+          <div class="row3">- Tech Geek</div>
+        </div>
+
+        <div class="box">
+          <div class="row1"><i class="fa fa-quote-left"></i></div>
+          <div class="row2">An interactive new platform where people can read news</div>
+          <div class="row3">- Tech Geek</div>
+        </div>
+
+        <div class="box">
+          <div class="row1"><i class="fa fa-quote-left"></i></div>
+          <div class="row2">An interactive new platform where people can read news</div>
+          <div class="row3">- Tech Geek</div>
+        </div>
+
+        <div class="box">
+          <div class="row1"><i class="fa fa-quote-left"></i></div>
+          <div class="row2">An interactive new platform where people can read news</div>
+          <div class="row3">- Tech Geek</div>
+        </div>
+
+        <div class="box">
+          <div class="row1"><i class="fa fa-quote-left"></i></div>
+          <div class="row2">An interactive new platform where people can read news</div>
+          <div class="row3">- Tech Geek</div>
+        </div>
+
+        <div class="box">
+          <div class="row1"><i class="fa fa-quote-left"></i></div>
+          <div class="row2">An interactive new platform where people can read news</div>
+          <div class="row3">- Tech Geek</div>
+        </div>
+
+      </div>
+    </section>
+    <!-- testimonials end --->
+
+
+    <!--- footer start ---->
+    <section class="site-footer">
+      <div class="footer-top">
+        <div class="row1">
+          <img src="assets/images/icons/youtube.png" class="site-logo" alt="">
+          <p>
+            Kedosic innovation was founded in 2020 by Kpenuoguoreata & Oluchi Olafonye with the goat to support
+            the most talented and ambitious entreprenuers build a company
+          </p>
+          <p class="copy-right">2020 Kedosic. All Right Reserved</p>
+        </div>
+        <div class="row2">
+          <ul>
+            <li class="title">Explore</li>
+            <li><a href="">How it works</a></li>
+            <li><a href="">Who we are</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+        <div class="row3">
+          <div class="title">Visit</div>
+          <p>Elzazi complex, Opposite westharm petrol station along gpalagam/Akpajam, woji (Odili Road, Port-Harcourt)</p>
+        </div>
+        <div class="row4">
+          <ul>
+            <li class="title">Explore</li>
+            <li><a href="">Terms and Condition</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <button class="icon"><i class="fa fa-instagram"></i></button>
+            <button class="icon"><i class="fa fa-twitter"></i></button>
+            <button class="icon"><i class="fa fa-facebook"></i></button>
+
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        Built with <i class="fa fa-heart"></i> By <a href="">Harvoxx Tech Hub</a>
+      </div>
+    </section>
+    <!--- footer end --->
+
+
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
 
   </main>
   <!--- HOME PAGE END --->
@@ -115,5 +380,69 @@
 <script src="assets/js/utilities.js"></script>
 
 <script>
+  $('.partners-carousel').owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    // animateIn: 'fadeIn',
+    // animateOut: 'fadeOut',
+    mouseDrag: true,
+    margin: 0,
+    nav: true,
+    responsive: {
+      0: {
+        items: 2
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 4
+      }
+    }
+  })
 
+
+  $('.news-carousel').owlCarousel({
+    // loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    dots: true,
+    mouseDrag: true,
+    margin: 30,
+    // nav: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      1000: {
+        items: 3
+      }
+    }
+  })
+
+
+  $('.testimonials-carousel').owlCarousel({
+    // loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    dots: true,
+    mouseDrag: true,
+    margin: 30,
+    // nav: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      1000: {
+        items: 3
+      }
+    }
+  })
 </script>

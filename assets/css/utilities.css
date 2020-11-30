@@ -151,6 +151,134 @@
   }
 
   /*** SITE HEADER END ***/
+
+  /*** SITE FOOTER  START ***/
+  .site-footer {
+    width: 100%;
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .site-footer .footer-top {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 30px 50px;
+  }
+
+  .site-footer .footer-top .row1 {
+    width: 25%;
+    /* height: 200px; */
+    background-color: ;
+  }
+
+  .site-footer .footer-top .row1 .site-logo {
+    width: 130px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .site-footer .footer-top .row1 p {
+    font-size: 15px;
+    color: white;
+  }
+
+  .site-footer .footer-top .row1 p.copy-right {
+    font-size: 15px;
+    color: white;
+    opacity: 0.8;
+    margin-top: 15px;
+  }
+  .site-footer .footer-top .row2 {
+    width: 20%;
+    /* height: 200px; */
+    background-color: ;
+  }
+
+  .site-footer .footer-top .row2 ul li {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .site-footer .footer-top .row2 ul li.title {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+  }
+
+  .site-footer .footer-top .row2 ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .site-footer .footer-top .row3 {
+    width: 30%;
+    /* height: 200px; */
+    background-color: ;
+  }
+
+  .site-footer .footer-top .row3 .title {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .site-footer .footer-top .row3 p {
+    font-size: 15px;
+    color: white;
+    max-width: 80%;
+  }
+
+  .site-footer .footer-top .row4 {
+    width: 25%;
+    /* height: 200px; */
+    background-color: ;
+  }
+
+  .site-footer .footer-top .row4 ul li {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .site-footer .footer-top .row4 ul li.title {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+  }
+
+  .site-footer .footer-top .row4 ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .site-footer .footer-top .row4 .icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    border: none;
+    font-size: 20px;
+  }
+
+  .site-footer .footer-bottom {
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: grey;
+    background-color: white;
+  }
+
+  .site-footer .footer-bottom i {
+    color: crimson;
+  }
+
+  .site-footer .footer-bottom a {
+    color: royalblue;
+    text-decoration: none;
+  }
+  /*** SITE FOOTER END ***/
 }
 
 /** **************end of bigger screen************************ **/
