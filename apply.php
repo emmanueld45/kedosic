@@ -1,3 +1,8 @@
+<!-- main blue color: #1D76BC --->
+<!-- homepage grey background-color: #E8E8E8 --->
+<!-- apply now green color btn: #009345 --->
+<!-- site orange color : #FF8D41 --->
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -5,7 +10,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Title</title>
+    <title>Kedosic | Home</title>
 
 
 
@@ -34,33 +39,63 @@
     <meta property="og:image" content="https://" />
     <!-- og graph end -->
 
+    <style>
+        .site-header {
+            background-color: white;
+            box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 
 </head>
 
 
 
-<body style="background-color:green;">
+<body>
 
 
-    <img src="assets/images/homepage.svg" alt="">
-    <!-- <img src="assets/images/5.svg" alt="" style="background-color:red;width:500px;height:auto;"> -->
+    <!-- header start --->
+    <?php include 'header.php'; ?>
+    <!-- header end --->
 
 
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
+    <!--- APPLY PAGE START --->
+    <main class="apply-page">
 
+
+        <section class="form-container">
+            <div class="centered-div">
+                <img src="assets/images/icons/youtube.png" alt="">
+            </div>
+            <div class="title">Apply</div>
+
+            <label for="">First name</label>
+            <input type="text" class="field">
+
+            <label for="">First name</label>
+            <input type="text" class="field">
+
+            <label for="">Phone number</label>
+            <div class="field-container">
+                <div class="row1">+234</div>
+                <input type="text" class="row2" placeholder="80xxxxxxxx">
+            </div>
+
+            <div class="apply-btn-container">
+                <button class="apply-btn">Apply</button>
+            </div>
+
+        </section>
+
+
+
+
+
+    </main>
+    <!--- APPLY PAGE END --->
+
+    <!-- footer start ---->
+    <?php include 'footer.php'; ?>
+    <!--- footer end --->
 </body>
 
 </html>
@@ -72,10 +107,5 @@
 <script src="assets/js/utilities.js"></script>
 
 <script>
-    window.onscroll = function() {
-        //console.log("scrolling: " + window.pageYOffset)
-        if (window.pageYOffset >= 50) {
-            console.log("Showing header")
-        }
-    }
+
 </script>

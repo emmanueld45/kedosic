@@ -71,13 +71,17 @@
           <div class="list-container"><button><i class="fa fa-check"></i></button> <span>Do you think it's profitable?</span></div>
           <div class="list-container"><button><i class="fa fa-check"></i></button> <span>Do you think it can scale?</span></div>
           <div class="apply-now-btn-container">
-            <a href="#" class="apply-now-btn">Apply Now</a>
+            <a href="apply" class="apply-now-btn">Apply Now</a>
           </div>
 
         </div>
       </div>
       <div class="row2">
         <img src="assets/images/6.svg" alt="" class="hero-img">
+        <img src="assets/images/8.svg" alt="" class="circle-shape">
+        <img src="assets/images/8.svg" alt="" class="zigzag-shape1">
+        <img src="assets/images/8.svg" alt="" class="zigzag-shape2">
+        <img src="assets/images/8.svg" alt="" class="triangle-shape">
       </div>
     </section>
     <!--- hero end --->
@@ -92,8 +96,6 @@
 
       <div class="tips tip1">
         <div class="row1">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 
@@ -118,8 +120,7 @@
         </div>
         <div class="row2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
         </div>
       </div>
 
@@ -128,9 +129,6 @@
       <div class="tips tip3">
         <div class="row1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
 
         </div>
         <div class="row2">
@@ -314,58 +312,11 @@
 
 
     <!--- footer start ---->
-    <section class="site-footer">
-      <div class="footer-top">
-        <div class="row1">
-          <img src="assets/images/icons/youtube.png" class="site-logo" alt="">
-          <p>
-            Kedosic innovation was founded in 2020 by Kpenuoguoreata & Oluchi Olafonye with the goat to support
-            the most talented and ambitious entreprenuers build a company
-          </p>
-          <p class="copy-right">2020 Kedosic. All Right Reserved</p>
-        </div>
-        <div class="row2">
-          <ul>
-            <li class="title">Explore</li>
-            <li><a href="">How it works</a></li>
-            <li><a href="">Who we are</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Blog</a></li>
-          </ul>
-        </div>
-        <div class="row3">
-          <div class="title">Visit</div>
-          <p>Elzazi complex, Opposite westharm petrol station along gpalagam/Akpajam, woji (Odili Road, Port-Harcourt)</p>
-        </div>
-        <div class="row4">
-          <ul>
-            <li class="title">Explore</li>
-            <li><a href="">Terms and Condition</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <button class="icon"><i class="fa fa-instagram"></i></button>
-            <button class="icon"><i class="fa fa-twitter"></i></button>
-            <button class="icon"><i class="fa fa-facebook"></i></button>
-
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        Built with <i class="fa fa-heart"></i> By <a href="">Harvoxx Tech Hub</a>
-      </div>
-    </section>
+    <?php include 'footer.php'; ?>
     <!--- footer end --->
 
 
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
-    <br><br><br>
+
 
   </main>
   <!--- HOME PAGE END --->
