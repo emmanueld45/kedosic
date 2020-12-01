@@ -1,7 +1,9 @@
 <section class="site-footer">
     <div class="footer-top">
         <div class="row1">
-            <img src="assets/images/icons/youtube.png" class="site-logo" alt="">
+            <a href="./">
+                <img src="assets/images/icons/kedosic.svg" class="site-logo" alt="">
+            </a>
             <p>
                 Kedosic innovation was founded in 2020 by Kpenuoguoreata & Oluchi Olafonye with the goat to support
                 the most talented and ambitious entreprenuers build a company

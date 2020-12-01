@@ -1,5 +1,7 @@
 <section class="site-header">
-    <img src="assets/images/icons/youtube.png" alt="" class="logo-img">
+    <a href="./">
+        <img src="assets/images/icons/kedosic.svg" alt="" class="logo-img">
+    </a>
     <ul class="site-sidebar">
         <li><a href="">home</a></li>
         <li><a href="">how it works</a></li>
