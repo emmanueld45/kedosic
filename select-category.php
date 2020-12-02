@@ -86,11 +86,11 @@
                 <button class="go-back"><i class="fa fa-angle-left"></i> go back</button>
                 <div class="title">TECH BASED - choose type</div>
 
-                <a href="" class="box">
-                    <button class="icon" style="background-color:royalblue;color:white;">N</button> <span>Non-Existing</span> <i class="fa fa-angle-right right-icon"></i>
+                <a href="tech-about-to-start1" class="box">
+                    <button class="icon" style="background-color:royalblue;color:white;">N</button> <span>About to start</span> <i class="fa fa-angle-right right-icon"></i>
                 </a>
 
-                <a href="" class="box">
+                <a href="tech-already-existing1" class="box">
                     <button class="icon" style="background-color:crimson;color:white;">A</button> <span>Already-Existing</span> <i class="fa fa-angle-right right-icon"></i>
                 </a>
 
@@ -103,11 +103,11 @@
                 <button class="go-back"><i class="fa fa-angle-left"></i> go back</button>
                 <div class="title">NON-TECH BASED - choose type</div>
 
-                <a href="" class="box">
-                    <button class="icon" style="background-color:royalblue;color:white;">N</button> <span>Non-Existing</span> <i class="fa fa-angle-right right-icon"></i>
+                <a href="nontech-about-to-start1" class="box">
+                    <button class="icon" style="background-color:royalblue;color:white;">N</button> <span>About to start</span> <i class="fa fa-angle-right right-icon"></i>
                 </a>
 
-                <a href="" class="box">
+                <a href="nontech-already-existing1" class="box">
                     <button class="icon" style="background-color:crimson;color:white;">A</button> <span>Already-Existing</span> <i class="fa fa-angle-right right-icon"></i>
                 </a>
 

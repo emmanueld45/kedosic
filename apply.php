@@ -64,7 +64,7 @@
 
         <section class="form-container">
             <div class="centered-div">
-                <img src="assets/images/icons/youtube.png" alt="">
+                <img src="assets/images/icons/kedosic.svg" alt="">
             </div>
             <div class="title">Apply</div>
 

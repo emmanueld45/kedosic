@@ -230,6 +230,114 @@
     text-decoration: none;
   }
   /*** SITE FOOTER END ***/
+
+  /*** FORM COMPONENT START ***/
+  .form-component {
+    width: 100%;
+    background-color: #e8e8e8;
+    padding: 30px 0px;
+  }
+
+  .form-component .form {
+    width: 100%;
+
+    background-color: white;
+    padding: 20px 10px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .form-component .form .row1 {
+    width: 100%;
+    background-color: ;
+    padding: 10px;
+    display: none;
+  }
+
+  .form-component .form .row1 img {
+    width: 80%;
+    height: auto;
+  }
+
+  .form-component .form .row2 {
+    width: 100%;
+    background-color: ;
+    padding: 10px;
+  }
+
+  .form-component .form .row2 .title {
+    width: 100%;
+    font-size: 20px;
+    color: #111;
+    font-weight: bold;
+  }
+
+  .form-component .form .row2 .steps {
+    width: 100%;
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 15px;
+  }
+
+  .form-component .form .row2 label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 0px;
+    color: #1d76bc;
+  }
+
+  .form-component .form .row2 .field {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 15px;
+  }
+
+  .form-component .form .row2 .textarea-field {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 15px;
+  }
+
+  .form-component .form .row2 .btns-container {
+    width: 100%;
+    height: 50px;
+  }
+
+  .form-component .form .row2 .btns-container .next-btn {
+    padding: 5px 30px;
+    border: none;
+    background-color: #1d76bc;
+    color: white;
+    border-radius: 3px;
+    float: right;
+    display: block;
+  }
+
+  .form-component .form .row2 .btns-container .submit-btn {
+    padding: 5px 30px;
+    border: none;
+    background-color: #1d76bc;
+    color: white;
+    border-radius: 3px;
+    display: block;
+    float: right;
+  }
+
+  .form-component .form .row2 .btns-container .cancel-btn {
+    padding: 5px 30px;
+    border: none;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    float: right;
+    text-decoration: none;
+  }
+  /*** FORM COMPONENT END ***/
 }
 
 /** ********************end of smaller screen********************** **/
@@ -423,6 +531,113 @@
     text-decoration: none;
   }
   /*** SITE FOOTER END ***/
+
+  /*** FORM COMPONENT START ***/
+  .form-component {
+    width: 100%;
+    background-color: #e8e8e8;
+    padding: 30px 0px;
+  }
+
+  .form-component .form {
+    width: 100%;
+
+    background-color: white;
+    padding: 20px 50px;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .form-component .form .row1 {
+    width: 50%;
+    background-color: ;
+    padding: 10px;
+  }
+
+  .form-component .form .row1 img {
+    width: 80%;
+    height: auto;
+  }
+
+  .form-component .form .row2 {
+    width: 50%;
+    background-color: ;
+    padding: 10px;
+  }
+
+  .form-component .form .row2 .title {
+    width: 100%;
+    font-size: 20px;
+    color: #111;
+    font-weight: bold;
+  }
+
+  .form-component .form .row2 .steps {
+    width: 100%;
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 15px;
+  }
+
+  .form-component .form .row2 label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 0px;
+    color: #1d76bc;
+  }
+
+  .form-component .form .row2 .field {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 15px;
+  }
+
+  .form-component .form .row2 .textarea-field {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 15px;
+  }
+
+  .form-component .form .row2 .btns-container {
+    width: 100%;
+    height: 50px;
+  }
+
+  .form-component .form .row2 .btns-container .next-btn {
+    padding: 5px 30px;
+    border: none;
+    background-color: #1d76bc;
+    color: white;
+    border-radius: 3px;
+    float: right;
+    display: block;
+  }
+
+  .form-component .form .row2 .btns-container .submit-btn {
+    padding: 5px 30px;
+    border: none;
+    background-color: #1d76bc;
+    color: white;
+    border-radius: 3px;
+    display: block;
+    float: right;
+  }
+
+  .form-component .form .row2 .btns-container .cancel-btn {
+    padding: 5px 30px;
+    border: none;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    float: right;
+    text-decoration: none;
+  }
+  /*** FORM COMPONENT END ***/
 }
 
 /** **************end of bigger screen************************ **/
